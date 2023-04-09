@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   Subject : sub.value,
   Body : name.value + email.value + msg.value + tel.value
   }).then(
-  message => alert(message));
+  message => alert('thank you for emailing me :)'));
   }
   
   form.addEventListener('submit',SendMessage);
