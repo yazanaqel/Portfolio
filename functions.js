@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   To : 'yazan.aqel93@gmail.com',
   From : 'yazanakel107@gmail.com',
   Subject : sub.value,
-  Body : name.value + <br><hr/> + email.value + <br><hr/> + msg.value + <br><hr/> + tel.value
+  Body : name.value + '<br><hr/>' + email.value + '<br><hr/>' + msg.value + '<br><hr/>' + tel.value
   }).then(
   message => alert('thank you for emailing me :)'));
   }
