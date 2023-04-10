@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.documentElement.setAttribute("data-theme", switchToTheme);
   
         if(switchToTheme=currentTheme==="light"){
-          themeSwitcher.innerHTML="{<i class='bx bxs-moon'></i>}";
+          themeSwitcher.innerHTML="{<i class='bx bxs-moon'></i>} dark";
         }
         else{
-          themeSwitcher.innerHTML="{<i class='bx bxs-sun'></i>}";
+          themeSwitcher.innerHTML="{<i class='bx bxs-sun'></i>} light";
         }
       }
     });
