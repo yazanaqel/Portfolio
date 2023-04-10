@@ -92,8 +92,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   SecureToken : "5564c1bf-e522-4572-9320-55559193007d",
   To : 'yazan.aqel93@gmail.com',
   From : 'yazanakel107@gmail.com',
-  Subject : sub.value,
-  Body : name.value + '<br><hr/>' + email.value + '<br><hr/>' + msg.value + '<br><hr/>' + tel.value
+  Subject : 'From portfolio',
+  Body : name.value + '<br><hr/>'+sub.value+ '<br><hr/>' + email.value + '<br><hr/>' + msg.value + '<br><hr/>' + tel.value
   }).then(
   message => alert('thank you for emailing me :)'));
   }
