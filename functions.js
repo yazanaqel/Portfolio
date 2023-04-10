@@ -96,6 +96,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
   Body : namee.value + '<br><hr/>'+sub.value+ '<br><hr/>' + email.value + '<br><hr/>' + msg.value + '<br><hr/>' + tel.value
   }).then(
   message => alert('thank you for emailing me :)'));
+    
+    namee.value='';
+		tel.value='';
+		sub.value = '';
+		email.value = '';
+		msg.value = '';
   }
   
   form.addEventListener('submit',SendMessage);
