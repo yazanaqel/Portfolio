@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   function SendMessage(e){
     e.preventDefault();
   
-    name = document.querySelector('.txtName');
+    namee = document.querySelector('.txtName');
     tel = document.querySelector('.txtTel');
     sub = document.querySelector('.txtSubject');
     email = document.querySelector('.txtMail');
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   To : 'yazan.aqel93@gmail.com',
   From : 'yazanakel107@gmail.com',
   Subject : 'From portfolio',
-  Body : name.value + '<br><hr/>'+sub.value+ '<br><hr/>' + email.value + '<br><hr/>' + msg.value + '<br><hr/>' + tel.value
+  Body : namee.value + '<br><hr/>'+sub.value+ '<br><hr/>' + email.value + '<br><hr/>' + msg.value + '<br><hr/>' + tel.value
   }).then(
   message => alert('thank you for emailing me :)'));
   }
