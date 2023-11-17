@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-  document.documentElement.setAttribute("data-theme", "light");
+  document.documentElement.setAttribute("data-theme", "dark");
   
       // Get our button switcher
       var themeSwitcher = document.getElementById("theme-switcher");
@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.documentElement.setAttribute("data-theme", switchToTheme);
   
         if(switchToTheme=currentTheme==="light"){
-          themeSwitcher.innerHTML="{<i class='bx bxs-moon'></i>} dark";
+          themeSwitcher.innerHTML="{<i class='bx bxs-sun'></i>} go light";
         }
         else{
-          themeSwitcher.innerHTML="{<i class='bx bxs-sun'></i>} light";
+          themeSwitcher.innerHTML="{<i class='bx bxs-moon'></i>} go dark";
         }
       }
     });
